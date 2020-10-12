@@ -1,0 +1,48 @@
+.content {
+  padding: 2vw 6vw;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    padding: 2vw 12vw;
+  }
+
+  #work {
+    top: 95vh !important;
+  }
+
+  #contact {
+    top: 145vh !important;
+  }
+}
+
+.desc:last-child {
+  margin-top: 80px;
+}
+
+.about  {
+  padding-left: 5vw !important
+}
+
+.extra {
+  width: 180px;
+  position: absolute;
+  z-index: -2;
+  left: -17px;
+}
+
+.header {
+  position: relative;
+}
+
+@media (min-width: 767px) {
+  .contact {
+    height: 68vh;
+  }
+}
+
+#contact {
+  position: absolute;
+  height: 100vh;
+  top: 145vh;
+}

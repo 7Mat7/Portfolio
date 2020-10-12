@@ -1,0 +1,21 @@
+@import url("components/navbar.css");
+@import url("components/img.css");
+@import url("components/content.css");
+@import url("components/work.css");
+@import url("components/card.css");
+
+p {
+  font-family: 'Space Mono';
+}
+
+h1 {
+  font-family: 'Roboto';
+}
+
+body {
+  font-size: 1.2rem !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}

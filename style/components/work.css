@@ -1,0 +1,30 @@
+@media (min-width: 767px) {
+  .work {
+    height: 100vh;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .work {
+    padding-top: 6rem;
+    padding-bottom: 0;
+  }
+
+  .sthing {
+    margin: 24px 94px;
+    position: relative;
+  }
+}
+
+#work {
+  position: absolute;
+  height: 100vh;
+  top: 85vh;
+}
+
+#about {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+}

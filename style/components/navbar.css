@@ -1,0 +1,40 @@
+#topheader .navbar-nav li > a {
+  text-transform: capitalize;
+  color: #333;
+  transition: background-color .2s, color .2s;
+
+  &:hover,
+  &:focus {
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+#topheader .navbar-nav li.active > a {
+  background-color: #333;
+  color: #fff;
+}
+
+#navbarTogglerDemo02 {
+  padding-right: 5vw;
+}
+
+.active, .underline {
+  height: 33px;
+  background: linear-gradient(white 61%, #FFC700 39%);
+  width: max-content;
+}
+
+.navbar-brand {
+  font-size: 66px !important;
+  padding-left: 5vw;
+}
+
+.navbar {
+  padding: 0!important;
+  background: linear-gradient(rgb(255, 255, 255)75%, rgba(255, 255, 255, 0.8)100%, rgba(255, 255, 255, 0.7)25%);
+}
+
+.title {
+  font-family: 'Space Mono';
+}

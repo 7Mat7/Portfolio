@@ -1,0 +1,55 @@
+.portrait {
+  height: 75vh;
+  object-fit: cover;
+    object-position: top;
+  }
+
+.portrait {
+  padding-left: 0 !important;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+  opacity: 0.1;
+}
+
+.img__description {
+  position: absolute;
+  top: 3vh;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  padding: 0 14%;
+}
+
+.program:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.program:hover .image {
+  visibility: visible;
+  opacity: 0.1;
+}
+
+@media (max-width: 767px) {
+  .more img {
+    transform: scale(1.2);
+    opacity: 0.1;
+  }
+
+  .more .img__description {
+    visibility: visible;
+    opacity: 1;
+    top: 2px;
+    padding: 0 0;
+  }
+}
