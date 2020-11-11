@@ -52,4 +52,8 @@
     top: 2px;
     padding: 0 0;
   }
+
+  .portrait {
+    padding: 0 !important;
+  }
 }

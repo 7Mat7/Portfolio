@@ -41,6 +41,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .row {
+    margin: 0 0 !important;
+  }
+}
+
 #contact {
   position: absolute;
   height: 100vh;
