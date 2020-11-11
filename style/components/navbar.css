@@ -15,10 +15,6 @@
   color: #fff;
 }
 
-#navbarTogglerDemo02 {
-  padding-right: 5vw;
-}
-
 .active, .underline {
   height: 33px;
   background: linear-gradient(white 61%, #FFC700 39%);
